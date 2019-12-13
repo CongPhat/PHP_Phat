@@ -1,0 +1,146 @@
+.dashboard {
+    margin-top: 50px;
+}
+
+.dashboard .dashboard_wrapper {
+    
+}
+
+.dashboard .dashboard_inner {
+    
+}
+
+.dashboard .dashboard_inner .dashboard_title{
+    margin: 50px 0;
+    text-align: center;
+}
+
+.dashboard .dashboard_inner .dashboard_title h1{
+    text-transform: uppercase;
+}
+
+.dashboard .dashboard_inner .dashboard_top{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.dashboard .dashboard_inner .dashboard_top .user h4{
+    font-size: 19px;
+}
+
+
+.dashboard .dashboard_inner .dashboard_top .add_product {
+    background: black;
+    border: 1px solid black;
+    transition: 0.3s;
+}
+
+.dashboard .dashboard_inner .dashboard_top .add_product:hover {
+    background: white;
+}
+
+.dashboard .dashboard_inner .dashboard_top .add_product:hover a{
+    color: black;
+    
+}
+
+.dashboard .dashboard_inner .dashboard_top .add_product a{
+    display: block;
+    padding: 10px 50px;
+    color: white;
+}
+
+.dashboard .dashboard_inner .dashboard_top .add_product a:hover{
+    text-decoration: none;
+}
+
+.dashboard .dashboard_inner .title{
+    margin: 20px 0;
+}
+
+.dashboard .dashboard_inner .title h4{
+    font-size: 19px;
+    color: red;
+}
+
+.dashboard .dashboard_inner .items{
+    border-top: 1px solid grey;
+    padding: 20px 0;
+}
+
+.dashboard .dashboard_inner .items .item_product{
+    
+}
+
+.dashboard .dashboard_inner .items .item_product h4{
+    font-size: 15px;
+    color: black;
+}
+
+.dashboard .dashboard_inner .items .item_product a{
+    color: black;
+    transition: 0.5s;
+}
+
+.dashboard .dashboard_inner .items .item_product a:hover{
+    color: gray;
+}
+
+.dashboard .dashboard_main {
+   
+}
+
+.dashboard .dashboard_main .dashboard_main_inner{
+    width: 40%;
+    margin: auto;
+}
+
+
+.dashboard .dashboard_form {
+
+}
+
+.dashboard .dashboard_form button{
+    width: 100%;
+    margin-top: 20px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    background: black;
+    color: white;
+    transition: 0.5s;
+    
+}
+
+.dashboard .dashboard_form button:hover {
+    border: 1px solid black;
+    background: white;
+    color: black;
+    transition: 0.5s;
+    
+}
+
+.dashboard .dashboard_form .group{
+    margin: 20px 0;
+    
+}
+
+.dashboard .dashboard_form .group label{
+    font-weight: 600;
+    display: block;
+}
+
+.dashboard .dashboard_form .group input{
+    width: 100%;
+    padding: 5px 10px;
+}
+
+.dashboard .dashboard_form .group .error{
+    color: red;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.dashboard .dashboard_form .group input:focus{
+   outline: none;
+}

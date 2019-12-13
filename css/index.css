@@ -1,0 +1,54 @@
+.login {
+
+}
+
+.login .login_wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login .login_wrapper .title_login .title{
+    font-size: 50px;
+    color: black;
+}
+
+.form_login .login_group{
+    margin: 20px 0;
+}
+
+.form_login label{
+    display: block;
+}
+
+.form_login input{
+    width: 100%;
+    padding: 5px 10px;
+}
+
+.form_login input:focus{
+    outline: none;
+}
+
+.form_login button{
+    width: 100%;
+    background: black;
+    color: white;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+.form_login button:hover{
+    background: white;
+    color: black;
+}
+
+.form_login span {
+    display: block;
+    color: red;
+    font-size: 14px;
+    font-weight: 600;
+}
